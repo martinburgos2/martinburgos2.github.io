@@ -209,7 +209,7 @@ ul {
 #menu{
     padding: 0;
     margin: 0;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -218,7 +218,7 @@ ul {
 ul{
     width: 100%;
     margin: 0;
-    margin-left: 25%;
+    margin-left: 23%;
     position: initial;
     background: white;
     display: flex;
@@ -790,6 +790,61 @@ iframe:first-child {
   margin-top: 8px;
 }
 
+@media (min-width: 600px){
+  .tercer-container {
+    min-width: 600px;
+    height: auto;
+    position: relative;
+  }
+
+  #img-phone {
+    position: absolute;
+    display: block;
+    left: 50px;
+    top: -120px;
+    width: 207.6px;
+    height: 360px;
+  }
+
+  #phone {
+    position: absolute;
+    top: 66%;
+    left: 32%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+
+  #div-segundo-titulo {
+    width: 100%;
+  }
+
+  #segundo-titulo {
+    width: 300px;
+    height: 62px;
+    margin: 0;
+    margin-top: 20.4px;
+    margin-left: 520px;
+    margin-right: 321px;
+    font-family: IBMPlexSans;
+    font-size: 30px;
+    color: #060a24;
+    letter-spacing: 0;
+  }
+
+  #parrafos {
+    margin-left: 460px;
+    margin-right: 256px;
+    margin-top: 20px;
+    width: 304px;
+    font-family: IBMPlexMono;
+    font-size: 12px;
+    color: #060a24;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+}
+
 @media (min-width: 1024px){
   .tercer-container {
     min-width: 1024px;
@@ -902,9 +957,11 @@ iframe:first-child {
 
 /*CUARTA SECCION*/
 .cuarto-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .cuarto-container h3 {
@@ -918,14 +975,42 @@ iframe:first-child {
   font-weight: 400;
 }
 
+#retratos{
+  width: 100%;
+  height: 1457px;
+}
+
 .retrato {
   width: 100%;
-  height: 4.5%;
+  height: 243px;
   margin: -2px;
 }
 
 .retrato:first-child {
   margin-top: 14px;
+}
+
+@media (min-width: 600px){
+  #retratos{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+  }
+  
+  .retrato {
+    width: 50%;
+    height: 16%;
+  }
+
+  .retrato:first-child{
+    margin-top: -2px;
+  }
+
 }
 
 @media (min-width: 1024px){
