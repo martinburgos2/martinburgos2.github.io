@@ -218,6 +218,7 @@ ul {
 ul{
     width: 100%;
     margin: 0;
+    margin-left: 25%;
     position: initial;
     background: white;
     display: flex;
@@ -265,12 +266,12 @@ li{
   }
 
   #header {
-    width: 1024px;
+    width: 100%;
     height: 80px;
   }
 
   .ancho {
-    width: 824px;
+    width: 90%;
     height: 80px;
     position: relative;
   }
@@ -499,7 +500,7 @@ li{
 
 @media (min-width: 1024px){
   #primer-container {
-    min-width: 1024px;
+    min-width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -653,7 +654,7 @@ iframe:first-child {
 
 @media (min-width: 1024px){
   .segundo-container {
-    min-width: 1024px;
+    min-width: 100%;
     height: 842.6px;
     background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
     clip-path: polygon(0 9%, 100% 0%, 100% 88%, 0% 100%);
@@ -661,8 +662,8 @@ iframe:first-child {
   }
 
   #episodios {
-    padding-top: 116px;
-    margin-left: 100px;
+    padding-top: 10%;
+    margin-left: 7%;
     font-family: IBMPlexSans;
     font-size: 48px;
     color: #ffffff;
@@ -679,7 +680,7 @@ iframe:first-child {
   #spotify {
     margin: 0 auto;
     margin-top: 30px;
-    width: 824px;
+    width: 86%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -689,7 +690,7 @@ iframe:first-child {
   #spotify iframe {
     margin-top: 0;
     margin-bottom: 42px;
-    width: 384px;
+    width: 48%;
     height: 232px;
   }
 
@@ -800,7 +801,7 @@ iframe:first-child {
     position: absolute;
     display: block;
     left: 200px;
-    top: -180px;
+    top: -170px;
     width: 307.6px;
     height: 460px;
   }
@@ -929,7 +930,7 @@ iframe:first-child {
 
 @media (min-width: 1024px){
   .cuarto-container {
-    min-width: 1024px;
+    min-width: 100%;
   }
 
   .cuarto-container h3 {
@@ -940,7 +941,7 @@ iframe:first-child {
     letter-spacing: 0;
     margin-left: 400px;
     margin-right: 759px;
-    margin-top: -130px;
+    margin-top: -110px;
     margin-bottom: 36px;
   }
 
@@ -1028,7 +1029,7 @@ iframe:first-child {
 
 @media (min-width: 1024px){
   .quinto-container {
-    min-width: 1024px;
+    min-width: 100%;
     margin-bottom: 34px;
   }
 
@@ -1040,14 +1041,14 @@ iframe:first-child {
     color: #060a24;
     letter-spacing: 0;
     padding-top: 64px;
-    margin-right: 654px;
-    margin-left: 450px;
+    margin-right: 50%;
+    margin-left: 20%;
     font-weight: 400;
   }
 
   #iconos {
     margin: 0;
-    width: 824px;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1151,7 +1152,7 @@ iframe:first-child {
 
 @media (min-width: 1024px){
   #sexto-container {
-    min-width: 1024px;
+    min-width: 100%;
     height: 418px;
     background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
     clip-path: polygon(0% 18%, 100% 0%, 100% 100%, 0% 100%);
@@ -1258,7 +1259,7 @@ line-height: 28px;
   } 
 
   #caja-footer {
-    width: 824px;
+    width: 80%;
     height: 95px;
     display: flex;
     flex-direction: row;
@@ -1273,6 +1274,24 @@ line-height: 28px;
     color: #060a24;
     letter-spacing: 0;
     line-height: 28px;
+  }
+
+  #redes {
+    margin: 0;
+    padding: 0;
+    width: 232px;
+  }
+
+  #redes a i {
+    font-size: 18px;
+    color: #060a24;
+    letter-spacing: 0;
+    line-height: 28px;
+    transition: all 100ms;
+  }
+
+  #redes a i:hover{
+    font-size: 24px;
   }
 }
 
