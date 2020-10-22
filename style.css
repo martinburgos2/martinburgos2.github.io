@@ -347,9 +347,9 @@ li{
   }
 }
 
-@media (min-width: 1440px) {
+@media (width: 1440px) {
   body {
-    max-width: 1440px;
+    width: 1440px;
   }
 
   #header {
@@ -554,7 +554,7 @@ li{
   }
 }
 
-@media (min-width: 1440px) {
+@media (width: 1440px) {
   #primer-container {
     width: 1440px;
     display: flex;
@@ -712,7 +712,7 @@ iframe:first-child {
 
   #episodios {
     padding-top: 186px;
-    margin-left: 200px;
+    margin-left: 17.5%;
     font-family: IBMPlexSans;
     font-size: 48px;
     color: #ffffff;
@@ -899,9 +899,9 @@ iframe:first-child {
   }
 }
 
-@media (min-width: 1440px) {
+@media (width: 1440px) {
   .tercer-container {
-    max-width: 1440px;
+    width: 1440px;
     height: 555.4px;
     position: relative;
   }
@@ -1036,7 +1036,7 @@ iframe:first-child {
 
 }
 
-@media (min-width: 1440px) {
+@media (width: 1440px) {
   .cuarto-container {
     width: 1440px;
   }
@@ -1161,7 +1161,7 @@ iframe:first-child {
   }
 }
 
-@media (min-width: 1440px) {
+@media (width: 1440px) {
   .quinto-container {
     margin-bottom: 34px;
   }
